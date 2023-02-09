@@ -1,10 +1,11 @@
 # Project Karly
-LikeLion Front-End School 4th LAB 14 Project - 'Karly'
+### LikeLion Front-End School 4th LAB 14 Vanilla Project - 'Karly'
+
 
 <div><h2> 🗓️ 기간</h2></div>
 2023년 01월 27일 ~ 2023년 02월 09일
 
-<div><h2>👨‍👨‍👧‍👧 팀원</h2></div>
+<div><h2>🧑‍💻 팀원</h2></div>
 
 <table>
     <tr align="center" >
@@ -63,6 +64,15 @@ LikeLion Front-End School 4th LAB 14 Project - 'Karly'
     </tr>
 </table>     
 
+<div><h2>▶️ 실행</h2></div>
+
+### 설치  
+    $ git clone https://github.com/likelion-lab14/lab14-project.git
+    $ cd lab14-project
+
+### 실행    
+    $ npm install    
+    $ npm run all    
 
 
 
