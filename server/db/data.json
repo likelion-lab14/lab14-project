@@ -4,9 +4,10 @@
       "id": "product-rksk",
       "name": "[대구 반할만떡] 유부호만두",
       "description": "유부로 속을 든든히 채운 군만두",
-      "price": 6900,
+      "price": 6000,
       "saleRatio": 0.24,
       "salePrice": 5244,
+      "sort": "frozen",
       "image": {
         "thumbnail": "ubuho/thumbnail.jpg",
         "view": "ubuho/detail_view.jpg",
@@ -14,7 +15,10 @@
         "info": "ubuho/detail_info.jpg",
         "alt": "유부호 만두"
       },
-      "stock": 3
+      "stock": 3,
+      "shippingInfo": "",
+      "isKarlyOnly": true,
+      "isLimitedProduct": false
     },
     {
       "id": "product-ekfk",
@@ -22,7 +26,8 @@
       "description": "튀기지 않아 부드럽고 매콤한",
       "price": 4980,
       "saleRatio": 0,
-      "salePrice": 0,
+      "salePrice": 4980,
+      "sort": "normal",
       "image": {
         "thumbnail": "tangtang/thumbnail.jpg",
         "view": "tangtang/detail_view.jpg",
@@ -30,7 +35,10 @@
         "info": "tangtang/detail_info.jpg",
         "alt": "풀무원 탱탱쫄면"
       },
-      "stock": 10
+      "stock": 10,
+      "shippingInfo": "샛별배송",
+      "isKarlyOnly": true,
+      "isLimitedProduct": false
     },
     {
       "id": "product-akqk",
@@ -39,6 +47,7 @@
       "price": 7900,
       "saleRatio": 0.13,
       "salePrice": 6800,
+      "sort": "frozen",
       "image": {
         "thumbnail": "jukkumi/thumbnail.jpg",
         "view": "jukkumi/detail_view.jpg",
@@ -46,7 +55,10 @@
         "info": "jukkumi/detail_info.jpg",
         "alt": "홍대 주꾸미"
       },
-      "stock": 8
+      "stock": 8,
+      "shippingInfo": "",
+      "isKarlyOnly": false,
+      "isLimitedProduct": true
     },
     {
       "id": "product-tkwk",
@@ -54,7 +66,8 @@
       "description": "보는 맛과 먹는 맛 모두 푸짐",
       "price": 29800,
       "saleRatio": 0,
-      "salePrice": 0,
+      "salePrice": 29800,
+      "sort": "frozen",
       "image": {
         "thumbnail": "kangnam/thumbnail.jpg",
         "view": "kangnam/detail_view.jpg",
@@ -62,7 +75,10 @@
         "info": "kangnam/detail_info.jpg",
         "alt": "강남면옥 소갈비찜"
       },
-      "stock": 2
+      "stock": 2,
+      "shippingInfo": "",
+      "isKarlyOnly": false,
+      "isLimitedProduct": false
     },
     {
       "id": "product-ckzk",
@@ -71,6 +87,7 @@
       "price": 4500,
       "saleRatio": 0.25,
       "salePrice": 3375,
+      "sort": "refrigeration",
       "image": {
         "thumbnail": "bacon/thumbnail.jpg",
         "view": "bacon/detail_view.jpg",
@@ -78,7 +95,87 @@
         "info": "bacon/detail_info.jpg",
         "alt": "칼리 한돈 삼겹 베이컨"
       },
-      "stock": 13
+      "stock": 13,
+      "shippingInfo": "샛별배송",
+      "isKarlyOnly": true,
+      "isLimitedProduct": true
+    }
+  ],
+  "reviews": [
+    {
+      "title": "하이",
+      "content": "하이",
+      "id": 1
+    },
+    {
+      "title": "후기",
+      "content": "맛나욤\nㅋ\nㅋ",
+      "id": 2
+    }
+  ],
+  "basket": [{
+    "id": "product-ckzk",
+    "number":10  
+    },
+    {
+      "id": "product-ekfk",
+      "number": 4
+    }
+  ],
+  "users": [
+    {
+      "uniqueId": "feNnYHWfXo",
+      "curlyId": "hong12",
+      "curlyPw": "d",
+      "userName": "홍길동",
+      "userPhone": "d",
+      "userAddress": "13480 경기 성남시 분당구 대왕판교로 477 ",
+      "id": 1
+    },
+    {
+      "uniqueId": "ycwggFZENK",
+      "curlyId": "ymymym",
+      "curlyPw": "12341234",
+      "userName": "최영민",
+      "userPhone": "01012345678",
+      "userAddress": "16379 경기 수원시 권선구 금곡로73번길 80-100 당수동",
+      "id": 2
+    },
+    {
+      "uniqueId": "aKOGAATMsy",
+      "curlyId": "fltk0825",
+      "curlyPw": "11111111",
+      "userName": "김서현",
+      "userPhone": "01012345678",
+      "userAddress": "48060 부산 해운대구 APEC로 55 ",
+      "id": 3
+    },
+    {
+      "uniqueId": "CMAxnhHJPq",
+      "curlyId": "123123",
+      "curlyPw": "123123123",
+      "userName": "123",
+      "userPhone": "123",
+      "userAddress": "36752 경북 안동시 강남1길 9 ",
+      "id": 4
+    },
+    {
+      "uniqueId": "UCFcZRrWvw",
+      "curlyId": "ddddddd",
+      "curlyPw": "11111111",
+      "userName": "한가인",
+      "userPhone": "01012345678",
+      "userAddress": "46042 부산 기장군 일광읍 이천2길 7-8 2층",
+      "id": 5
+    },
+    {
+      "uniqueId": "aZSKjscBgi",
+      "curlyId": "wjwjwj",
+      "curlyPw": "12341234",
+      "userName": "ee",
+      "userPhone": "01026747207",
+      "userAddress": "02859 서울 성북구 안암로 5 ",
+      "id": 6
     }
   ]
 }

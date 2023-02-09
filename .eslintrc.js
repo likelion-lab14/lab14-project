@@ -13,7 +13,8 @@ module.exports = {
   overrides: [],
   // 사용환경을 최신 자바스트립트로 가정
   parserOptions: {
-    ecmaVersion: 'latest'
+    ecmaVersion: 'latest',
+    sourceType: "module"
   },
   // extends 옵션으로 지정한 룰셋을 덮어씌운다
   rules: {
@@ -130,5 +131,10 @@ module.exports = {
     'prefer-template': ['warn'],
     // 객체의 프로퍼티 이름은 필요할 때만 따옴표로 감싸야 한다
     'quote-props': ['warn', 'as-needed'],
+
+    'no-undef':'warn',
+    'no-unused-vars':'warn'
   },
+  // ES6~7을 파싱하다가 생긴 문제 해결을 위한 플러그인 인터폴레이션 구문에 일반 코드 사용가능
+  parser:"babel-eslints"
 }
