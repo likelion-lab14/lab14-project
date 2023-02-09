@@ -82,6 +82,7 @@
   <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
   <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
   <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
-</div>
-<img src="https://user-images.githubusercontent.com/38703262/217723998-287b65e0-4c81-4e52-843d-a70d51e08772.png"> 
+</div>  
 
+<img src="https://user-images.githubusercontent.com/38703262/217723998-287b65e0-4c81-4e52-843d-a70d51e08772.png"> 
+<img src="https://user-images.githubusercontent.com/38703262/217724365-bfa95a4e-19d1-4a97-a6dd-bb376bd2da32.png"> 
