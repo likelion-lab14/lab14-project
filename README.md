@@ -1,6 +1,6 @@
 # Project Karly
 ### LikeLion Front-End School 4th LAB 14 Vanilla Project - 'Karly'
-notion = https://www.notion.so/3b559ba8f0f340b18a13e2bb02e6bb09
+* notion 정리 = https://www.notion.so/3b559ba8f0f340b18a13e2bb02e6bb09
 
 
 <div><h2> 🗓️ 기간</h2></div>
